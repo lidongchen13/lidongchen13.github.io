@@ -553,6 +553,28 @@ code {
   font-style: italic;
 }
 
+/* Linked paper titles and DOI links in the publications list */
+.pub-link {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.pub-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.pub-doi {
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.pub-doi:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .pub-item {
   display: grid;
   grid-template-columns: 6.1rem minmax(0, 1fr);
