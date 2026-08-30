@@ -377,7 +377,7 @@ code {
 
 .portrait-wrap img {
   width: 100%;
-  aspect-ratio: 2 / 2.55;
+  aspect-ratio: 496 / 543; /* matches the portrait photo's native 496x543 */
   object-fit: cover;
   object-position: 50% 30%;
   filter: saturate(0.84) contrast(1.02);
