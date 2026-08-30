@@ -365,7 +365,7 @@ code {
 
 .hero-aside {
   max-width: 25rem;
-  justify-self: end;
+  justify-self: start;
 }
 
 .portrait-wrap {
@@ -534,6 +534,23 @@ code {
 .pub-empty {
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+/* Plain (no year column) paper entries for working papers / work in progress */
+.pub-item-plain {
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.pub-item-plain:first-child {
+  border-top: 1px solid var(--rule);
+}
+
+.pub-status {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
 }
 
 .pub-item {
