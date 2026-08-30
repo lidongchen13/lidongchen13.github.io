@@ -1,7 +1,7 @@
 # Personal homepage of Lidong Chen
 
 Static site (plain HTML/CSS/JS, no build step), hosted on GitHub Pages at
-https://ccld4ever.github.io.
+https://lidongchen13.github.io.
 
 ## Edit
 
