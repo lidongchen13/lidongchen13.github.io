@@ -7,7 +7,7 @@
   <title>Lidong Chen — PhD Candidate in Economics</title>
   <meta name="description" content="Lidong Chen is a fourth-year PhD candidate in Economics, specializing in environmental and energy economics, household decision-making and welfare in energy transitions, and uncertainty in firm decisions.">
   <meta name="author" content="Lidong Chen">
-  <meta name="theme-color" content="#111217">
+  <meta name="theme-color" content="#f6f2eb">
   <meta name="color-scheme" content="light dark">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <!-- Fonts: Newsreader (serif), Manrope (sans), JetBrains Mono (mono) -->
@@ -17,11 +17,11 @@
   <link rel="stylesheet" href="/styles.css">
   <script>
     // Set the theme before first paint to avoid flashing.
-    // The site defaults to the dark theme; users can switch to light via the toggle.
+    // The site defaults to the light theme; users can switch to dark via the toggle.
     (function () {
       try {
         var saved = localStorage.getItem('lc-theme');
-        var dark = saved !== 'light';
+        var dark = saved === 'dark' || (saved !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
         if (dark) document.documentElement.dataset.theme = 'dark';
       } catch (e) {}
     })();
@@ -68,8 +68,7 @@
       <div class="container hero-grid">
         <aside class="hero-aside" aria-label="Portrait and academic profiles">
           <div class="portrait-wrap">
-            <!-- TODO: replace with your photo, e.g. <img src="/images/portrait.jpg" width="724" height="1086" alt="Lidong Chen"> -->
-            <div class="portrait-placeholder" aria-hidden="true">LC</div>
+            <img src="/images/portrait.jpg" width="724" height="1086" alt="Lidong Chen">
           </div>
           <nav class="profile-row" aria-label="Academic profiles">
             <a href="https://github.com/ccld4ever" target="_blank" rel="me noopener noreferrer" aria-label="GitHub (opens in a new tab)">
@@ -100,8 +99,7 @@
           <div class="button-row hero-buttons">
             <a class="button" href="#research">Explore research <span aria-hidden="true">→</span></a>
             <a class="button secondary" href="#publications">View publications</a>
-            <!-- TODO: drop your CV at /files/cv.pdf and uncomment the line below -->
-            <!-- <a class="button secondary" href="/files/cv.pdf" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↓</span></a> -->
+            <a class="button secondary" href="/files/cv.pdf" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↓</span></a>
           </div>
         </div>
       </div>
