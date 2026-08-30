@@ -327,7 +327,7 @@ code {
 }
 
 .hero-copy {
-  max-width: 40ch;
+  max-width: 52ch;
 }
 
 .hero-copy h1 {
@@ -526,7 +526,27 @@ code {
 }
 
 .path-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.2rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.7rem;
   margin-bottom: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.path-heading h2 {
+  margin: 0;
+}
+
+.path-kicker {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
 }
 
 .pub-list {
