@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="handwritten static site">
+  <title>Lidong Chen — Researcher</title>
+  <meta name="description" content="Lidong Chen is a researcher at the University of Chinese Academy of Sciences and City University of Hong Kong.">
+  <meta name="author" content="Lidong Chen">
+  <meta name="theme-color" content="#f6f2eb">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <!-- Fonts: Newsreader (serif), Manrope (sans), JetBrains Mono (mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,560;6..72,700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    // Set the theme before first paint to avoid flashing.
+    (function () {
+      try {
+        var saved = localStorage.getItem('lc-theme');
+        var dark = saved === 'dark' || (saved !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.dataset.theme = 'dark';
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="signal-bar">
+      <div class="container signal-inner">
+        <span class="signal-id">LC · ACADEMIC PROFILE</span>
+        <!-- TODO: replace with your 2-3 keywords, e.g. "Machine learning · Data science · ..." -->
+        <span>Research field · Keyword two · Keyword three</span>
+      </div>
+    </div>
+    <div class="container masthead">
+      <a class="wordmark" href="#home" aria-label="Lidong Chen, home">
+        <span class="wordmark-name">Lidong Chen</span>
+      </a>
+      <div class="header-actions">
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+          <ul role="list">
+            <li><a href="#home" aria-current="page">Home</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Toggle light and dark theme">
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.2A8.4 8.4 0 0 1 8.8 4a8.5 8.5 0 1 0 11.2 11.2Z"></path></svg>
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2.5 12h2M19.5 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"></path></svg>
+        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="menu-mark" aria-hidden="true"></span><span>Menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1><span class="hero-name">Lidong Chen</span></h1>
+          <!-- TODO: your current role, e.g. "PhD Candidate" -->
+          <p class="hero-role">Researcher</p>
+          <p class="hero-affiliation">University of Chinese Academy of Sciences · City University of Hong Kong</p>
+          <!-- TODO: one short paragraph introducing yourself -->
+          <p class="hero-lede">I am a researcher affiliated with the University of Chinese Academy of Sciences and City University of Hong Kong. This page is under construction — my introduction, research, and publication details will be added here.</p>
+          <div class="button-row hero-buttons">
+            <a class="button" href="#research">Explore research <span aria-hidden="true">→</span></a>
+            <a class="button secondary" href="#publications">View publications</a>
+            <!-- TODO: drop your CV at /files/cv.pdf and uncomment the line below -->
+            <!-- <a class="button secondary" href="/files/cv.pdf" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↓</span></a> -->
+          </div>
+        </div>
+        <aside class="hero-aside" aria-label="Portrait and academic profiles">
+          <div class="portrait-wrap">
+            <!-- TODO: replace with your photo, e.g. <img src="/images/portrait.jpg" width="724" height="1086" alt="Lidong Chen"> -->
+            <div class="portrait-placeholder" aria-hidden="true">LC</div>
+          </div>
+          <nav class="profile-row" aria-label="Academic profiles">
+            <a href="https://github.com/ccld4ever" target="_blank" rel="me noopener noreferrer" aria-label="GitHub (opens in a new tab)">
+              <span class="profile-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.8 9.7.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 4-1.4 6.8-5.2 6.8-9.7C22 6.6 17.5 2 12 2Z"></path></svg>
+              </span>
+              <span>GitHub</span>
+            </a>
+            <!-- TODO: fill in your Google Scholar / ORCID links -->
+            <a href="#" target="_blank" rel="me noopener noreferrer" aria-label="Google Scholar (opens in a new tab)">
+              <span class="profile-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m3 8.5 9-4 9 4-9 4-9-4Z"></path><path d="M6.5 10.1v4.1c0 1.6 2.5 2.9 5.5 2.9s5.5-1.3 5.5-2.9v-4.1"></path><path d="M21 8.7v5"></path></svg>
+              </span>
+              <span>Scholar</span>
+            </a>
+            <a href="#" target="_blank" rel="me noopener noreferrer" aria-label="ORCID (opens in a new tab)">
+              <span class="profile-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"></circle><path d="M8.8 10v5.7M8.8 7.8h.01M12.4 10h1.8c1.8 0 3 1.2 3 2.9s-1.2 2.9-3 2.9h-1.8V10Z"></path></svg>
+              </span>
+              <span>ORCID</span>
+            </a>
+            <!-- TODO: replace with your real email address -->
+            <a href="mailto:you@example.com" aria-label="Email">
+              <span class="profile-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg>
+              </span>
+              <span>Email</span>
+            </a>
+          </nav>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH FOCUS STRIP ============ -->
+    <section class="focus-strip" id="research">
+      <div class="container">
+        <div class="focus-heading">
+          <p class="eyebrow">Research focus</p>
+        </div>
+        <ul class="focus-list" role="list">
+          <!-- TODO: replace the four focus areas with your own -->
+          <li><span>01</span><a href="#research">Focus area one</a></li>
+          <li><span>02</span><a href="#research">Focus area two</a></li>
+          <li><span>03</span><a href="#research">Focus area three</a></li>
+          <li><span>04</span><a href="#research">Focus area four</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROFILE ============ -->
+    <section class="profile-section">
+      <div class="container profile-grid">
+        <div class="profile-heading">
+          <p class="eyebrow">Profile</p>
+          <h2>About me</h2>
+        </div>
+        <div class="profile-prose">
+          <!-- TODO: write a short bio here -->
+          <p>Lidong Chen is a researcher at the University of Chinese Academy of Sciences and City University of Hong Kong. My work focuses on <em>your research field</em>. I am interested in <em>your interests</em>.</p>
+          <p>This personal website is a static page built with plain HTML and CSS, deployed on GitHub Pages. Edit <code>index.html</code> and push to update it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section class="path-section" id="publications">
+      <div class="container">
+        <div class="path-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>Selected publications</h2>
+        </div>
+        <div class="pub-list">
+          <!-- TODO: replace the placeholder entries with your publications.
+               Suggested format:
+               <li class="pub-item">
+                 <span class="pub-year">2025</span>
+                 <div class="pub-body">
+                   <a class="pub-title" href="#">Title of your paper</a>
+                   <p class="pub-authors">Lidong Chen, Co-author A, Co-author B</p>
+                   <p class="pub-venue">Journal or conference name</p>
+                 </div>
+               </li>
+          -->
+          <p class="pub-empty">[Add your publications here — edit <code>index.html</code>]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT BAND ============ -->
+    <section class="contact-band" id="contact">
+      <div class="container contact-band-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+        </div>
+        <div>
+          <p>I welcome questions and collaboration opportunities.</p>
+          <!-- TODO: replace with your real email -->
+          <p><a class="button" href="mailto:you@example.com">you@example.com</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2025</span> Lidong Chen</span>
+      <span class="footer-meta">Handwritten static site · GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
