@@ -384,8 +384,10 @@ code {
 .portrait-wrap img {
   display: block;
   width: 100%;
-  height: auto;          /* keep the photo's natural proportions — never cropped */
+  height: auto;          /* natural proportions */
+  aspect-ratio: 495 / 543; /* the photo's native ratio; contain never crops */
   object-fit: contain;
+  object-position: 50% 50%;
   filter: saturate(0.84) contrast(1.02);
 }
 
