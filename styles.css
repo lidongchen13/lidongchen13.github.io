@@ -370,7 +370,7 @@ code {
 
 .hero-aside {
   max-width: 14rem;    /* proportional portrait, top-aligned in the narrow left column */
-  justify-self: start;
+  justify-self: center;  /* centre the portrait + button row within the left column */
   align-self: start;
 }
 
@@ -697,7 +697,7 @@ code {
   }
 
   .hero-aside {
-    justify-self: start;
+    justify-self: center;
     width: min(100%, 14rem);
   }
 
